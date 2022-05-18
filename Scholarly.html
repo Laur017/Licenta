@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholary HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body prefix="schema: http://schema.org">
+
+    <div class="container">
+
+
+        <header>
+            <h1> Help ME - Scholarly-HTML</h1>
+        </header>
+        <div class="top-info" role="contentinfo">
+            <dl>
+                <dt>Author</dt>
+                <dd typeof="sa:ContributorRole" property="schema:author">
+                    <span typeof="schema:Person">
+                    <meta property="schema:givenName" content="Laurentiu">
+                    <meta property="schema:familyName" content="Popa">
+                    <a href="https://github.com/Laur017">
+                        <span property="schema:name">Popa Laurentiu</span>
+                    </a>
+                    </span>
+                </dd>
+            </dl>
+        </div>
+
+        <section typeof="sa:Abstract" id="abstract" role="doc-abstract">
+            <h2><span>1. </span>Purpose </h2>
+            <p>
+                I created a graphical interface for an application that helps students who wants to prepare for exams.
+            </p>
+        </section>
+
+        <section id="introduction">
+            <h2><span>2. </span>Introduction</h2>
+            <p>Nowadays, many children do not understand the subjects that they are taught in educational institutions due to their entourage, lack of motivation and the inability of some teachers to teach. Some students seek the help of a meditative teacher,
+                but a lot of them cannot afford it.
+            </p>
+            <p>
+                These are the main reasons why I created an application to solve this problem. It is a free of charge app, available on the web, that contains videos which will help students learn, exercises that will help them develop their knowledge and a set of tests
+                that will help them evaluate what they have learned ongoing.
+            </p>
+        </section>
+
+        <section id="architecture">
+            <h2><span>3. </span>Application architecture</h2>
+            <p>
+                The application starts with the home page, from where the user can log in or create an account. After the authentication, he is redirected to the profile page, where he can choose the domain that he wants to study. After choosing it the user will be redirected
+                to a page where he can choose from learning, exercisesing or testing the knowledge that he aquired in that certain domain that he previously choosed. <br>
+            </p>
+        </section>
+
+        <section id="pages">
+            <h2><span>4. </span>Web application pages</h2>
+
+            <section id="pages-start">
+                <h3><span>4.1 </span>Login Page</h3>
+                <p>
+                    The Start page offers the possibility for a existing user to log in.
+                </p>
+
+                <img src="images/signin.jpg" alt="Start Page" class="pages" width="500" height="300">
+            </section>
+
+
+            <section id="pages-create-account">
+                <h3><span>4.2 </span>Create account </h3>
+                <p>
+                    On this page, the user can create an account by entering personal data such as email, username andss password.
+                </p>
+
+                <img src="images/register.jpg" alt="Create account Page" class="pages" width="500" height="300">
+
+
+            </section>
+
+            <section id="pages-login">
+                <h3><span>4.3 </span>Profile Page</h3>
+                <p>
+
+                    Once the user has logged in, or created their account, they will be redirected to their profile page where they can see their stats and choose the domain that they want to study.
+                </p>
+
+                <img src="images/main.jpg" alt="Login Page" class="pages" width="500" height="300">
+            </section>
+
+            <section id="pages-profile">
+                <h3><span>4.4 </span>Domain page</h3>
+                <p>
+
+                    After choosing the domain, the user will choose whether to learn to practice or to test his knowledge
+
+                </p>
+
+                <img src="images/certainobj.jpg" alt="Profile Page" class="pages" width="500" height="300">
+            </section>
+
+
+            <section id="pages-cases">
+                <h3><span>4.5 </span>Learning Page</h3>
+                <p>
+
+                    On the learning page the user will select the video with the theme that he understands less </p>
+
+                <img src="images/learning.jpg" alt="Cases Page" class="pages" width="500" height="300">
+            </section>
+
+
+        </section>
+
+        <section id="references">
+            <h2><span>6. </span>References</h2>
+            <ul>
+                <li property="schema:citation" typeof="schema:WebSite" resource="https://developer.mozilla.org/en-US/">
+                    <cite property="schema:name">
+                        <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a>
+                    </cite>
+                </li>
+                <li property="schema:citation" typeof="schema:WebSite" resource="https://www.geeksforgeeks.org/">
+                    <cite property="schema:name">
+                        <a href="https://www.geeksforgeeks.org/">GeeksforGeeks</a>
+                    </cite>
+                </li>
+                <li property="schema:citation" typeof="schema:WebSite" resource="https://w3c.github.io/scholarly-html/">
+                    <cite property="schema:name">
+                        <a href="https://w3c.github.io/scholarly-html/">Scholarly HTML</a>
+                    </cite>
+                </li>
+                <li property="schema:citation" typeof="schema:WebSite" resource="https://profs.info.uaic.ro/~stefan.negru/personas/">
+                    <cite property="schema:name">
+                        <a href="https://profs.info.uaic.ro/~stefan.negru/personas/">Personas</a>
+                    </cite>
+                </li>
+            </ul>
+
+        </section>
+    </div>
+</body>
+<br>
+
+</html>

@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background: #ADEFD1FF;
+    padding: 1em;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img {
+    border-radius: 0.5em;
+}
