@@ -216,3 +216,8 @@ padding: 0.5em;
     justify-content: center;
     margin: 1em;
 }
+
+video{
+    width: 70em;
+    border-radius: 2em;
+}
