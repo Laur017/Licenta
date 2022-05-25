@@ -147,7 +147,7 @@ input[type=submit] {
     height: 1.5em;
 }
 
-.actions{
+.actions {
 
     background: rgba(255,255,255,80%);
     margin-left: 2em;
@@ -191,4 +191,28 @@ padding: 0.5em;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+}
+
+.vid{
+    width: 15em;
+    height: 10em;
+    border-radius: 2em;
+}
+
+.videos{
+    background: rgba(255,255,255,80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+    border-radius: 2em;
+}
+.prime{
+    background: white;
+    border-radius: 2em;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
 }
