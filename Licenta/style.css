@@ -59,8 +59,8 @@ input {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: none;
-    border-radius: 2%;
+    border: 1px solid black;
+    border-radius: 2em;
 }
 .sign_in_form {
     width: 20em;
@@ -79,6 +79,8 @@ input[type=submit] {
     text-decoration: none;
     cursor: pointer;
     font-weight: bold;
+    border: 1px solid black;
+    border-radius: 2em;
 
 }
 .profile_image{
