@@ -223,3 +223,39 @@ video{
     width: 70em;
     border-radius: 2em;
 }
+
+.timer{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 40%;
+}
+.minutes, .seconds{
+    font-size:3rem;
+}
+
+.countdown-timer-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 3em;
+}
+
+.countdown-timer-container div {
+    width: 25%;
+    text-align: center;
+    font-size: 2em;
+}
+.countdown-timer-values{
+    font-size: 4em; !important;
+}
